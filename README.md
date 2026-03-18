@@ -6,7 +6,7 @@ Titre du projet :
 
 `Concevez et analyser une base de données NoSQL`
 
-Ce repo ne conserve que l'approche de conception de la base de données les fichiers de données étant trop lourds pour github.
+Ce repo ne conserve que l'approche de conception de la base de données, les fichiers de données étant trop lourds pour github.
 
 ## Installations
 
@@ -19,7 +19,7 @@ Ce projet utilise **MongoDB** comme base de données NoSQL.
 
 **Outils** :
    - [MongoDB Compass](https://www.mongodb.com/products/compass).
-   - [Extension MongoDB pour VS Code](https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode) (pour manipuler la base directement depuis l'éditeur).
+   - [mongosh](https://www.mongodb.com/docs/mongodb-shell/install/?operating-system=windows&windows-installation-method=msiexec)
 
 ---
 
@@ -34,18 +34,12 @@ Ce projet utilise **MongoDB** comme base de données NoSQL.
 ## 📁 Structure du projet
 
 ```
-projet7_listing/
+MongoDB_sharding_cluster/
 ├── README.md                    # Ce fichier
 ├── setup_cluster.ps1            # Installation complète
 ├── verify_cluster.ps1           # Vérification
 ├── stop_cluster.ps1             # Arrêt propre
-├── restart_cluster.ps1          # Relance
-├── mongo_polar.py               # Exploration data avec polar
-├── docs/*
-|
-└── data/
-    ├── listings_Paris.csv       # 📍 Données Paris
-    └── listings_Lyon.csv        # 📍 Données Lyon
+└── restart_cluster.ps1          # Relance
 ```
 
 ---
