@@ -62,7 +62,7 @@ MongoDB_sharding_cluster/
 .\setup_cluster.ps1
 ```
 ⚠️ Changer le chemin d'accès pour les csv (lignes 33 et 37) ⚠️
-⚠️ Ce script réinialise supprime toutes les databases existantes sur les ports locaux indiqué ⚠️ 
+⚠️ Ce script supprime toutes les databases existantes sur les ports locaux indiqué ⚠️ 
 
 ### 2. Vérifier l'installation
 ```powershell
