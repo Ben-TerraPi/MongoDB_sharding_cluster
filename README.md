@@ -29,7 +29,9 @@ Ce projet utilise **MongoDB** comme base de données NoSQL.
 
 ---
 
-**Architecture MongoDB distribuée** pour un cluster MongoDB shardé avec :
+## Architecture MongoDB distribuée
+
+Cluster MongoDB shardé avec :
 - ✅ **2 Replica Sets** (rs01 Paris + rs02 Lyon)
 - ✅ **8 nœuds MongoDB** + 1 Config Server + 1 Mongos
 - ✅ **105,858 documents** shardés par `data_city`
@@ -43,6 +45,7 @@ Ce projet utilise **MongoDB** comme base de données NoSQL.
 
 ```
 MongoDB_sharding_cluster/
+├── images/MongoDB_Sharding.png
 ├── README.md                    # Ce fichier
 ├── setup_cluster.ps1            # Installation complète
 ├── verify_cluster.ps1           # Vérification
@@ -58,6 +61,8 @@ MongoDB_sharding_cluster/
 ```powershell
 .\setup_cluster.ps1
 ```
+⚠️ Changer le chemin d'accès pour les csv (lignes 33 et 37) ⚠️
+⚠️ Ce script réinialise supprime toutes les databases existantes sur les ports locaux indiqué ⚠️ 
 
 ### 2. Vérifier l'installation
 ```powershell
