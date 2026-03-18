@@ -1,5 +1,27 @@
-# MongoDB Sharding Cluster - Projet 7
+## Context
 
+Ce projet a été réalisé dans le cadre de mon parcours de formation 'Data Engineer' avec OpenClassrooms.
+
+Titre du projet :
+
+`Concevez et analyser une base de données NoSQL`
+
+Ce repo ne conserve que l'approche de conception de la base de données les fichiers de données étant trop lourds pour github.
+
+## Installations
+
+### MongoDB (Local)
+
+Ce projet utilise **MongoDB** comme base de données NoSQL.
+
+**MongoDB Community Server** :
+   - Télécharger depuis [le site officiel](https://www.mongodb.com/try/download/community).
+
+**Outils** :
+   - [MongoDB Compass](https://www.mongodb.com/products/compass).
+   - [Extension MongoDB pour VS Code](https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode) (pour manipuler la base directement depuis l'éditeur).
+
+---
 
 **Architecture complète** pour un cluster MongoDB shardé avec :
 - ✅ **2 Replica Sets** (rs01 Paris + rs02 Lyon)
