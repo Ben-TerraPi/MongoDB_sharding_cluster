@@ -8,6 +8,9 @@ Titre du projet :
 
 Ce repo ne conserve que l'approche de conception de la base de données, les fichiers de données étant trop lourds pour github.
 
+[listing_paris](https://s3.eu-west-1.amazonaws.com/course.oc-static.com/projects/922_Data+Engineer/922_P7/listings_Paris+(1).csv)
+[listing_lyon](https://s3.eu-west-1.amazonaws.com/course.oc-static.com/projects/922_Data+Engineer/922_P7/listings_Lyon+(1).csv)
+
 ## Installations
 
 ### MongoDB (Local)
