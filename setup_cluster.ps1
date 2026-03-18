@@ -14,7 +14,7 @@ Write-Host "========================================" -ForegroundColor Cyan
 Write-Host "MongoDB Sharding Cluster Setup" -ForegroundColor Cyan
 Write-Host "========================================`n" -ForegroundColor Cyan
 
-# ===== ÉTAPE 0 : NETTOYAGE =====
+# ===== ÉTAPE 0 : NETTOYAGE ===== ⚠️ Ce script supprime toutes les databases existantes sur les ports locaux indiqué ⚠️ 
 Write-Host "[ÉTAPE 0] Nettoyage..." -ForegroundColor Yellow
 Get-Process mongod, mongos -ErrorAction SilentlyContinue | Stop-Process -Force
 Start-Sleep -Seconds 3
