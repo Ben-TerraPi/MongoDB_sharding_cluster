@@ -6,10 +6,13 @@ Titre du projet :
 
 `Concevez et analyser une base de données NoSQL`
 
-Ce repo ne conserve que l'approche de conception de la base de données, les fichiers de données étant trop lourds pour github.
+Ce repo ne conserve que l'approche de conception de la base de données, les fichiers de données étant trop lourds pour github. 
 
-[listing_paris](https://s3.eu-west-1.amazonaws.com/course.oc-static.com/projects/922_Data+Engineer/922_P7/listings_Paris+(1).csv)
-[listing_lyon](https://s3.eu-west-1.amazonaws.com/course.oc-static.com/projects/922_Data+Engineer/922_P7/listings_Lyon+(1).csv)
+### Source data :
+
+- [listing_paris](https://s3.eu-west-1.amazonaws.com/course.oc-static.com/projects/922_Data+Engineer/922_P7/listings_Paris+(1).csv)
+
+- [listing_lyon](https://s3.eu-west-1.amazonaws.com/course.oc-static.com/projects/922_Data+Engineer/922_P7/listings_Lyon+(1).csv)
 
 ## Installations
 
@@ -26,11 +29,13 @@ Ce projet utilise **MongoDB** comme base de données NoSQL.
 
 ---
 
-**Architecture complète** pour un cluster MongoDB shardé avec :
+**Architecture MongoDB distribuée** pour un cluster MongoDB shardé avec :
 - ✅ **2 Replica Sets** (rs01 Paris + rs02 Lyon)
 - ✅ **8 nœuds MongoDB** + 1 Config Server + 1 Mongos
 - ✅ **105,858 documents** shardés par `data_city`
 - ✅ **Arbitres** pour haute disponibilité
+
+![MongoDB Sharding Cluster Architecture](./images/MongoDB_Sharding.png)
 
 ---
 
