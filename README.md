@@ -6,7 +6,7 @@ Titre du projet :
 
 `Concevez et analyser une base de données NoSQL`
 
-Ce repo ne conserve que l'approche de conception de la base de données, les fichiers de données étant trop lourds pour github. 
+Ce repo ne concerne que la logique de conception de la base de données, les fichiers de données étant trop volumineux pour github. 
 
 ### Source data :
 
